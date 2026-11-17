@@ -36,3 +36,7 @@ kernel/ive_neo/Makefile
 bootrom/**/*.bin
 bootrom/**/disasm.txt
 bootrom/**/re.elf
+
+.files*
+.stamp*
+.applied_patches_list
