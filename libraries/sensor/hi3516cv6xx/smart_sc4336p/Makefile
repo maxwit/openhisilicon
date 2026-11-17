@@ -14,7 +14,7 @@ override CFLAGS += -fPIC -Wall -O2 \
 	-I$(COMMON) \
 	-I.
 
-SRCS := $(wildcard *.c) $(COMMON)/sensor_common.c
+SRCS := my-sc4336p.c $(COMMON)/sensor_common.c
 OBJS := $(notdir $(SRCS:%.c=%.o))
 
 all: $(LIB_NAME).so $(LIB_NAME).a
